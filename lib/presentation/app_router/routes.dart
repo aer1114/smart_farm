@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:smart_farm/main_page.dart';
-import 'package:smart_farm/screens/auth/login_page.dart';
-import 'package:smart_farm/screens/calendar/calendar_page.dart';
-import 'package:smart_farm/screens/home/home_page.dart';
-import 'package:smart_farm/screens/search_page/search_page.dart';
-import 'package:smart_farm/screens/settings/settings.dart';
+import 'package:smart_farm/presentation/screens/auth/login_page.dart';
+import 'package:smart_farm/presentation/screens/calendar/calendar_page.dart';
+import 'package:smart_farm/presentation/screens/home/home_page.dart';
+import 'package:smart_farm/presentation/screens/search_page/search_page.dart';
+import 'package:smart_farm/presentation/screens/settings/settings.dart';
 
 class RouteManager {
   static getRoutes(RouteSettings settings) {

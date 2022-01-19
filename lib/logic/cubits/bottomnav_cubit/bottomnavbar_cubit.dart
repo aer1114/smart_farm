@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:smart_farm/screens/calendar/calendar_page.dart';
-import 'package:smart_farm/screens/home/home_page.dart';
-import 'package:smart_farm/screens/settings/settings.dart';
+import 'package:smart_farm/presentation/screens/calendar/calendar_page.dart';
+import 'package:smart_farm/presentation/screens/home/home_page.dart';
+import 'package:smart_farm/presentation/screens/settings/settings.dart';
 
 part 'bottomnavbar_state.dart';
 

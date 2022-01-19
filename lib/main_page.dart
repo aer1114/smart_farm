@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:smart_farm/cubits/bottomnav_cubit/bottomnavbar_cubit.dart';
+import 'package:smart_farm/logic/cubits/bottomnav_cubit/bottomnavbar_cubit.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({Key? key}) : super(key: key);

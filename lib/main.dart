@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smart_farm/main_page.dart';
-import 'package:smart_farm/routes.dart';
+import 'package:smart_farm/presentation/app_router/routes.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,7 +1,3 @@
-
-
-
-
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -14,7 +10,7 @@ class LoginPage extends StatelessWidget {
         title: const Text("Login Page"),
       ),
       body: Center(
-        child: Text("Home Page"),
+        child:Text("Home Page"),
       ),
     );
   }

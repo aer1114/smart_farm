@@ -7,20 +7,18 @@ import 'package:smart_farm/presentation/screens/settings/settings.dart';
 part 'bottomnavbar_state.dart';
 
 class BottomnavbarCubit extends Cubit<BottomnavbarState> {
-  int pageIndex = 0 ;
+  int pageIndex = 0;
   BottomnavbarCubit() : super(BottomnavbarInitial());
-   List listPages =  [
-      HomePage(),
-      SettingsPage(),
-      CalendarPage(),
-      SettingsPage(),
+  List listPages = [
+    HomePage(),
+    SettingsPage(),
+    CalendarPage(),
+    SettingsPage(),
+  ];
 
-    ];
+  changePage(int tappedIndex) {
+    pageIndex = tappedIndex;
 
-    changePage(int tappedIndex){
-      pageIndex = tappedIndex;
-
-      emit(BottomnavbarInitial());
-    
+    emit(BottomnavbarInitial());
   }
 }
